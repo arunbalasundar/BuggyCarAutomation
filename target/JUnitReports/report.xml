@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="46.732">
+    <testcase classname="Vote for a model in the Buggy Cars website" name="Verify user can successfully vote for a model with comments" time="46.613">
+        <system-out><![CDATA[Given user is logged in.....................................................passed
+When user selects a model...................................................passed
+And user adds a comment.....................................................passed
+And user clicks vote........................................................passed
+Then user vote is added.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

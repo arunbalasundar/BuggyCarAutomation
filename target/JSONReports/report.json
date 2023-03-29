@@ -1,0 +1,112 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-29T19:56:31.152Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6605522000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step.driverandannotations.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user can successfully vote for a model with comments",
+        "description": "",
+        "id": "vote-for-a-model-in-the-buggy-cars-website;verify-user-can-successfully-vote-for-a-model-with-comments",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12415911000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is logged in",
+            "match": {
+              "location": "Step.ProfileSteps.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3106354000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects a model",
+            "match": {
+              "location": "Step.ProfileSteps.selectmodel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3023662000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user adds a comment",
+            "match": {
+              "location": "Step.ProfileSteps.addcomment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15368403000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks vote",
+            "match": {
+              "location": "Step.ProfileSteps.clickvote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6052202000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user vote is added",
+            "match": {
+              "location": "Step.ProfileSteps.verifyvote()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VoteScenario"
+          },
+          {
+            "name": "@VTC1"
+          }
+        ]
+      }
+    ],
+    "name": "Vote for a model in the Buggy Cars website",
+    "description": "",
+    "id": "vote-for-a-model-in-the-buggy-cars-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/VoteCar.feature",
+    "tags": [
+      {
+        "name": "@VoteScenario",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
